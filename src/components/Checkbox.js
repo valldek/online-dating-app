@@ -19,7 +19,6 @@ export const Checkbox = ({ id }) => {
       onClick={() => archiveTask()}
     >
       <span className="checkbox" />
-
     </div>
   )
 }
