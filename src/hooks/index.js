@@ -10,7 +10,7 @@ export const useTasks = (selectedProject) => {
   useEffect(() => {
     let unsubscribe = firebase
       .firestore()
-      .collenction('tasks')
+      .collection('tasks')
       .where(
         'userId',
         '==',
